@@ -1,6 +1,10 @@
 # VEX Syntax
 
-A [Sublime Text][3] package for Sidefx Software's VEX language which is used in the procedural visual effects software Houdini.
+A [Sublime Text][3] package for Sidefx Software's VEX language which is used in the procedural visual effects software Houdini. With the Monokai color scheme selected:
+
+<p align="center">
+  <img src="http://shawnlipowski.com/git/vex_tmlanguage_screenshot.png" alt="VEX Syntax Markup Example"/>
+</p>
 
 ### Installation
 
@@ -18,18 +22,16 @@ First you must locate the Sublime Text [packages folder][1], then:
 Manual installation via git:
 
     cd /path/to/sublime/packages/folder
-    **********git clone https://github.com/WhileRomeBurns/VEX_Syntax VEX_Syntax
+    git clone https://github.com/WhileRomeBurns/VEX_Syntax VEX_Syntax
 
 Manual installation without git:
 
     cd /path/to/sublime/packages/folder
-    **********curl -L https://github.com/WhileRomeBurns/VEX_Syntax/tarball/master | tar xf -
+    curl -L https://github.com/WhileRomeBurns/VEX_Syntax/tarball/master | tar xf -
 
 ### Contributing
 
-You can send pull requests via GitHub. Do *not* edit the
-**********`VEX.tmLanguage` file directly. Edit the
-**********`VEX.JSON-tmLanguage` file instead and build the `.tmLanguage` file
+You can send pull requests via GitHub. Do *not* edit the `VEX.tmLanguage` file directly. Edit the `VEX.JSON-tmLanguage` file instead and build the `.tmLanguage` file
 from it using the _JSON to Property List_ build tool in
 [AAAPackageDev][4].
 
