@@ -1,0 +1,12 @@
+<!-- See http://docs.sublimetext.info/en/latest/extensibility/snippets.html for more information -->
+<snippet>
+    <tabTrigger>foreach</tabTrigger>
+    <scope>source.vex</scope>
+    <description>Foreach Loop</description>
+    <content>
+<![CDATA[
+foreach (${1:item}; ${2:array}){
+    ${0:/* code */}
+}
+]]></content>
+</snippet>

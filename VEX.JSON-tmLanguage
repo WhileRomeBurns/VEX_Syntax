@@ -1,0 +1,133 @@
+{
+    "foldingStartMarker": "(\\{\\s*(//.*)?$|^\\s*// \\{\\{\\{)",
+    "name": "VEX",
+    "scopeName": "source.vex",
+    "patterns": [
+        {
+            "comment": "Defines the context of the VEX code.",
+            "endCaptures": {
+                "1": {
+                    "name": "entity.name.class.vex"
+                },
+                "2": {
+                    "name": "punctuation.group.vex"
+                }
+            },
+            "begin": "\\b(chop|cop|cvex|displace|fog|image3d|light|pop|shadow|sop|surface)\\b",
+            "end": "\\b(\\w*)\\s?(\\()",
+            "beginCaptures": {
+                "1": {
+                    "name": "keyword.context.vex"
+                }
+            }
+        },
+        {
+            "name": "keyword.control.vex",
+            "match": "\\b(break|continue|do|else|for|foreach|forpoints|gather|if|return|while)\\b"
+        },
+        {
+            "name": "storage.type.builtin.vex",
+            "match": "\\b(bsdf|char|color|float|int|integer|matrix|matrix3|matrix4|normal|point|string|struct|typedef|union|vector|vector2|vector4)\\b"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "support.function.library.vex"
+                },
+                "2": {
+                    "name": "punctuation.group.vex"
+                }
+            },
+            "match": "\\b(abs|accessframe|acos|addattribute|addgroup|addvariablename|albedo|alphaname|ambient|anoise|area|array|arraylength|ashikhmin|asin|assign|atan|atan2|atof|atoi|atten|avg|binput|blinn|blinnBRDF|bouncelabel|bouncemask|bumpmap|bumpmapA|bumpmapB|bumpmapG|bumpmapL|bumpmapR|bumpname|ceil|ch|chend|chendf|chendt|chinput|chname|chnumchan|chrate|chstart|chstartf|chstartt|cinput|ckspline|clamp|clip|colormap|colorname|computenormal|concat|cone|cos|cosh|cout|cracktransform|cross|cspline|ctransform|degrees|depthmap|depthname|determinant|diffuse|diffuseBRDF|dihedral|dimport|distance|distance2|dot|dsmpixel|Du|Dv|Dw|eigenvalues|emission_bsdf|environment|erf|erfc|eval_bsdf|exp|fastshadow|filtershadow|filterstep|finput|fit|floor|flownoise|flowpnoise|fntransform|frac|fresnel|fromNDC|frontface|ftransform|fvtransform|getattribute|getbbox|getblurP|getbounces|getbounds|getcomp|getfogname|getglobalraylevel|getlightname|getlights|getneighbour|getneighbourcount|getneighbours|getobjectname|getphotonlight|getraylevel|getrayweight|getshadowscope|gradient|gradient3d|hasplane|henyeygreenstein|hscript_noise|hscript_rand|hscript_snoise|hscript_sturb|hscript_turb|hsvtorgb|iaspect|ichname|ident|iend|iendtime|ihasplane|illuminance|import|importance_light|ingroup|int|integrate3d|integrate3dClip|interpolate|intersect|intersect3d|intersect_lights|inumplanes|invert|iplaneindex|iplanename|iplanesize|irate|irradiance|isarealight|isbound|isconnected|isdistantlight|isfogray|isframes|isotropic|issamples|isseconds|isshadowray|istart|istarttime|ixres|iyres|kspline|length|length2|lerp|limport|lkspline|lntransform|log|log10|lookat|lspline|ltransform|luminance|lumname|lvtransform|maketransform|maskname|match|matchvex_blinn|matchvex_specular|mattrib|max|mdensity|metaimport|metamarch|metanext|metastart|metaweight|min|mspace|nbouncetypes|newgroup|newsampler|nextsample|ninput|noise|normal_bsdf|normalize|normalname|npoints|nprimitives|nrandom|ntransform|occlusion|onoise|ontransform|optransform|otransform|ovtransform|ow_nspace|ow_space|ow_vspace|pathtrace|pcclose|pcconvex|pcexport|pcfarthest|pcfilter|pcgenerate|pcimport|pciterate|pcnumfound|pcopen|pcopenlod|pcunshaded|pcwrite|phong|phongBRDF|phonglobe|photon_diffuse|photon_reflect|photon_store|photon_transmit|photonmap|planeindex|planename|planesize|pnoise|pointname|pop|pow|prim_attribute|prim_normal|printf|ptexture|ptlined|ptransform|push|qconvert|qmultiply|quaternion|radians|random|rawbumpmap|rawbumpmapA|rawbumpmapB|rawbumpmapG|rawbumpmapL|rawbumpmapR|rawcolormap|rayhittest|rayimport|reflect|reflectlight|refract|refractlight|relbbox|removegroup|renderstate|resize|resolvemissedray|rgbtohsv|rint|rotate|sample_bsdf|sample_geometry|sample_light|scale|serialize|set|setcomp|shadow|shadow_light|shadowmap|shimport|shl|shr|simport|sin|sinh|sleep|slerp|smooth|snoise|specular|specularBRDF|specularratio_bsdf|spline|sprintf|sqrt|storelightexports|strlen|swizzle|tan|tanh|teximport|texture|texture3d|texture3dBox|toNDC|trace|translate|transpose|tw_nspace|tw_space|tw_vspace|unserialize|variadicarguments|variance|velocityname|vnoise|volume|volumegradient|volumeindex|volumeindextopos|volumepostoindex|volumeres|volumesample|vtransform|wireblinn|wirediffuse|wnoise|wo_nspace|wo_space|wo_vspace|wt_nspace|wt_space|wt_vspace|xnoise)\\b\\s*(\\()"
+        },
+        {
+            "patterns": [
+                {
+                    "include": "$self"
+                }
+            ],
+            "begin": "(\\w+)\\s*\\(",
+            "end": "\\)",
+            "name": "meta.method.identifier.vex",
+            "beginCaptures": {
+                "1": {
+                    "name": "entity.name.function.vex"
+                }
+            }
+        },
+        {
+            "name": "constant.numeric.vex",
+            "match": "\\b((0(x|X)[0-9a-fA-F]*)|(([0-9]+\\.?[0-9]*)|(\\.[0-9]+))((e|E)(\\+|-)?[0-9]+)?)(L|l|UL|ul|u|U|F|f|ll|LL|ull|ULL)?\\b"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "comment.block.preprocessor.vex"
+                },
+                "2": {
+                    "name": "keyword.preprocessor.vex"
+                }
+            },
+            "match": "\\s*((#define|#else|#endif|#ifndef|#ifdef|#if|#include|#pragma|#undef).*$\\n?)"
+        },
+        {
+            "begin": "\"",
+            "end": "\"",
+            "name": "string.quoted.double.vex",
+            "endCaptures": {
+                "1": {
+                    "name": "punctuation.definition.string.end.vex"
+                }
+            },
+            "beginCaptures": {
+                "1": {
+                    "name": "punctuation.definition.string.begin.vex"
+                }
+            },
+            "patterns": [
+                {
+                    "name": "constant.character.escape.vex",
+                    "match": "\\\\."
+                }
+            ]
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "comment.line.double-slash.vex"
+                },
+                "2": {
+                    "name": "punctuation.definition.comment.vex"
+                }
+            },
+            "match": "\\s*((//).*$\\n?)"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "punctuation.definition.comment.vex"
+                }
+            },
+            "begin": "/\\*",
+            "end": "\\*/",
+            "name": "comment.block.vex"
+        },
+        {
+            "name": "punctuation.group.vex",
+            "match": "\\(|\\)|,|:|;"
+        },
+        {
+            "name": "keyword.operator.vex",
+            "match": "\\+\\+?|--?|\\*|\\^=?|\\|\\|?|\\|=|&&?|&=|%=?|!=?|==?|~=?|<=?|>=?|\\+=|\\*=|-=|\\/=?"
+        },
+        {
+            "name": "constant.language",
+            "match": "\\b(LN10|LN2|LOG10E|LOG2E|PI|PI_2|PI_4|SQRT1_2|SQRT2|TOLERANCE)\\b"
+        }
+    ],
+    "foldingStopMarker": "^\\s*(\\}|// \\}\\}\\}$)",
+    "fileTypes": [
+        "vfl"
+    ],
+    "uuid": "edd78512-59d9-4cb6-9733-a6adcc972160"
+}

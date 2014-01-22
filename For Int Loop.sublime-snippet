@@ -1,0 +1,12 @@
+<!-- See http://docs.sublimetext.info/en/latest/extensibility/snippets.html for more information -->
+<snippet>
+    <tabTrigger>for</tabTrigger>
+    <scope>source.vex</scope>
+    <description>For Int Loop</description>
+    <content>
+<![CDATA[
+for (int ${2:i} = 0; $2 < ${1:count}; ${3:++$2}){
+    ${0:/* code */}
+}
+]]></content>
+</snippet>
