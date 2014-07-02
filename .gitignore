@@ -1,2 +1,5 @@
 .DS_Store
 *.cache
+functions_old.txt
+combine_functions.py
+functions_vim.txt

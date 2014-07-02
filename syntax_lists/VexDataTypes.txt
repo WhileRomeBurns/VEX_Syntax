@@ -1,0 +1,10 @@
+array
+bsdf
+float
+int
+matrix
+matrix3
+string
+struct
+vector
+vector4

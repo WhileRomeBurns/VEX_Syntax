@@ -8,14 +8,14 @@ int   max_points = ${2:10};
 
 int handle = pcopen(0, "P", @P, search_radius, max_points+1);
 
-int ptnum_near;
-vector pos_near;
+int near_pt;
+vector near_p;
 
 while( pciterate(handle) ) {
-    pcimport(handle, "point:number", ptnum_near);
-    if (@ptnum != ptnum_near) {
+    pcimport(handle, "point:number", near_pt);
+    if (@ptnum != near_pt) {
         // found a nearby point that isn't the search position
-        pcimport(handle, "P", pos_near);$3
+        pcimport(handle, "P", near_p);$3
     }
 }
 

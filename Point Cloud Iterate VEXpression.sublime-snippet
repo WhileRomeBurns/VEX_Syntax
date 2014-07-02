@@ -8,11 +8,10 @@ int   max_points = ${2:10};
 
 int handle = pcopen(${3:0}, "P", @P, search_rad, max_points);
 
-vector pos_near;
+vector near_p;
 
 while( pciterate(handle) ) {
-
-    pcimport(handle, "P", pos_near);$3
+    pcimport(handle, "P", near_p);$3
 }
 
 pcclose(handle);
