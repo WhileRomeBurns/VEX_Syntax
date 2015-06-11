@@ -17,11 +17,11 @@ Version 1.2.0
             2) Updated definitions for Houdini 14 (600+ function names now).
 
         Completions:
-            1) Basic completions for all functions with positional parameter types hinted.
+            1) Basic completions for all functions.
             2) The python script which queries vcc to generate this data is included.
 
         Snippets:
-            1) Cleanup on pcopen snippets.
+            1) Cleanup on pcopen and for/foreach snippets.
 
         Development:
             1) Definitions are now developed in yaml instead of JSON. Still using AAA package dev.
