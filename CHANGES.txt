@@ -1,0 +1,49 @@
+Version 1.2.0
+==================================================================================================
+    Houdini version 14 supported.
+
+    Changes:
+        Contexts:
+            1) Renamed cop to cop2 (still 11 total as before).
+
+        Keywords:
+            2) Added illuminance (was incorrectly listed as a function).
+
+        Types:
+            1) Added matrix2 for houdini 14 (vector2 was already in the definition).
+
+        Functions:
+            1) Removed gather/illuminance as they are technically special control structures.
+            2) Updated definitions for Houdini 14 (600+ function names now).
+
+        Completions:
+            1) Basic completions for all functions with positional parameter types hinted.
+            2) The python script which queries vcc to generate this data is included.
+
+        Snippets:
+            1) Cleanup on pcopen snippets.
+
+        Development:
+            1) Definitions are now developed in yaml instead of JSON. Still using AAA package dev.
+            2) Project reorganized. Python files moved to 'src' directory.
+            3) Python utility for querying vcc and generating completions for all functions and
+               overloads.
+
+    Todo:
+        1) Special treatment of global variables?
+        2) Context in function hints and possibly completions without arguments first.
+        3) Fix 'void' completions.
+        4) Vex wrangle syntax definition.
+        5) Snippets for context skeletons.
+
+
+
+Version 1.1.0
+==================================================================================================
+    Houdini version 13 supported.
+
+
+
+Version 1.0.0
+==================================================================================================
+    Houdini version 12 supported, initial public release.

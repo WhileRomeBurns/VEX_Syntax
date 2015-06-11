@@ -1,5 +1,5 @@
 {
-    "cmd": ["python", "-u", "$packages/VEX Syntax/compile_and_run.py", "$file"],
+    "cmd": ["python", "-u", "$packages/VEX Syntax/src/compile_and_run.py", "$file"],
     "shell": true,
     "selector": "source.vex"
 }

@@ -11,7 +11,7 @@ int handle = pcopen(${3:0}, "P", P, search_rad, max_points);
 vector near_p;
 
 while( pciterate(handle) ) {
-    pcimport(handle, "P", near_p);$3
+    pcimport(handle, "P", near_p);
 }
 
 pcclose(handle);
