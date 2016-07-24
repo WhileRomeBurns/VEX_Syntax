@@ -6,7 +6,7 @@
 float search_rad = ${1:10.0};
 int   max_points = ${2:10};
 
-int handle = pcopen(@OpInput1, "P", @P, search_radius, max_points+1);
+int handle = pcopen(@OpInput1, "P", @P, search_rad, max_points+1);
 
 int near_pt;
 vector near_p;
