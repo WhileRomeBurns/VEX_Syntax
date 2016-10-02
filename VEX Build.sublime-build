@@ -1,5 +1,9 @@
 {
     "cmd": ["python", "-u", "$packages/VEX Syntax/src/compile_and_run.py", "$file"],
     "shell": true,
-    "selector": "source.vex"
+    "selector": "source.vex",
+    "osx":
+    {
+        "cmd": ["/Library/Frameworks/Houdini.framework/Versions/CUrrent/Resources/bin/vcc '${file}' -o '${file_path}/${file_base_name}.vex'"]
+    }
 }
