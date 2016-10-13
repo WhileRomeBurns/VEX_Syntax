@@ -1,3 +1,30 @@
+Version 1.4.0
+==================================================================================================
+    Houdini version 15.5 update.
+
+    Changes:
+        Function highlighting and completions ammended to support 15.5.
+        Void type added.
+        Pulled Bonsak's fix for the build command on OSX.
+
+
+Version 1.3.0
+==================================================================================================
+    Houdini version 15 updates.
+
+    Changes:
+        Functions added:
+            addvisualizer,agentaddclip,assert_enabled,attrib,attribclass,error,expand_udim,
+            fuzzify,fuzzy_and,fuzzy_defuzz_centroid,fuzzy_nand,fuzzy_nor,fuzzy_not,fuzzy_nxor,
+            fuzzy_or,fuzzy_xor,getattrib,getsmoothP,hasattrib,idtopoint,idtoprim,invertexgroup,
+            nametopoint,nametoprim,nvertices,nverticesgroup,opdigits,opfullpath,pgfind,print_once,
+            product,relativepath,resample_linear,setvertexgroup,smoothrotation,splitpath,sum,
+            uvunwrap,warning
+
+        Snippets:
+            1) Fixed PC Iterate typo.
+
+
 Version 1.2.0
 ==================================================================================================
     Houdini version 14 supported.

@@ -69,8 +69,20 @@
             "trigger": "addvertexattrib\tfunction"
         },
         {
+            "contents": "addvisualizer(${1})",
+            "trigger": "addvisualizer\tfunction"
+        },
+        {
+            "contents": "agentaddclip(${1})",
+            "trigger": "agentaddclip\tfunction"
+        },
+        {
             "contents": "agentclipcatalog(${1})",
             "trigger": "agentclipcatalog\tfunction"
+        },
+        {
+            "contents": "agentclipchannel(${1})",
+            "trigger": "agentclipchannel\tfunction"
         },
         {
             "contents": "agentcliplength(${1})",
@@ -81,8 +93,16 @@
             "trigger": "agentclipnames\tfunction"
         },
         {
+            "contents": "agentclipsample(${1})",
+            "trigger": "agentclipsample\tfunction"
+        },
+        {
             "contents": "agentclipsamplelocal(${1})",
             "trigger": "agentclipsamplelocal\tfunction"
+        },
+        {
+            "contents": "agentclipsamplerate(${1})",
+            "trigger": "agentclipsamplerate\tfunction"
         },
         {
             "contents": "agentclipsampleworld(${1})",
@@ -201,6 +221,10 @@
             "trigger": "asin\tfunction"
         },
         {
+            "contents": "assert_enabled(${1})",
+            "trigger": "assert_enabled\tfunction"
+        },
+        {
             "contents": "assign(${1})",
             "trigger": "assign\tfunction"
         },
@@ -223,6 +247,14 @@
         {
             "contents": "atten(${1})",
             "trigger": "atten\tfunction"
+        },
+        {
+            "contents": "attrib(${1})",
+            "trigger": "attrib\tfunction"
+        },
+        {
+            "contents": "attribclass(${1})",
+            "trigger": "attribclass\tfunction"
         },
         {
             "contents": "attribsize(${1})",
@@ -561,6 +593,10 @@
             "trigger": "erfc\tfunction"
         },
         {
+            "contents": "error(${1})",
+            "trigger": "error\tfunction"
+        },
+        {
             "contents": "eulertoquaternion(${1})",
             "trigger": "eulertoquaternion\tfunction"
         },
@@ -571,6 +607,10 @@
         {
             "contents": "exp(${1})",
             "trigger": "exp\tfunction"
+        },
+        {
+            "contents": "expand_udim(${1})",
+            "trigger": "expand_udim\tfunction"
         },
         {
             "contents": "expandpointgroup(${1})",
@@ -661,8 +701,48 @@
             "trigger": "frontface\tfunction"
         },
         {
+            "contents": "fuzzify(${1})",
+            "trigger": "fuzzify\tfunction"
+        },
+        {
+            "contents": "fuzzy_and(${1})",
+            "trigger": "fuzzy_and\tfunction"
+        },
+        {
+            "contents": "fuzzy_defuzz_centroid(${1})",
+            "trigger": "fuzzy_defuzz_centroid\tfunction"
+        },
+        {
+            "contents": "fuzzy_nand(${1})",
+            "trigger": "fuzzy_nand\tfunction"
+        },
+        {
+            "contents": "fuzzy_nor(${1})",
+            "trigger": "fuzzy_nor\tfunction"
+        },
+        {
+            "contents": "fuzzy_not(${1})",
+            "trigger": "fuzzy_not\tfunction"
+        },
+        {
+            "contents": "fuzzy_nxor(${1})",
+            "trigger": "fuzzy_nxor\tfunction"
+        },
+        {
+            "contents": "fuzzy_or(${1})",
+            "trigger": "fuzzy_or\tfunction"
+        },
+        {
+            "contents": "fuzzy_xor(${1})",
+            "trigger": "fuzzy_xor\tfunction"
+        },
+        {
             "contents": "geoself(${1})",
             "trigger": "geoself\tfunction"
+        },
+        {
+            "contents": "getattrib(${1})",
+            "trigger": "getattrib\tfunction"
         },
         {
             "contents": "getattribute(${1})",
@@ -691,6 +771,10 @@
         {
             "contents": "getcomponents(${1})",
             "trigger": "getcomponents\tfunction"
+        },
+        {
+            "contents": "getderiv(${1})",
+            "trigger": "getderiv\tfunction"
         },
         {
             "contents": "getfogname(${1})",
@@ -753,12 +837,28 @@
             "trigger": "getrayweight\tfunction"
         },
         {
+            "contents": "getsamplestore(${1})",
+            "trigger": "getsamplestore\tfunction"
+        },
+        {
             "contents": "getscope(${1})",
             "trigger": "getscope\tfunction"
         },
         {
+            "contents": "getsmoothP(${1})",
+            "trigger": "getsmoothP\tfunction"
+        },
+        {
             "contents": "getspace(${1})",
             "trigger": "getspace\tfunction"
+        },
+        {
+            "contents": "getuvobjects(${1})",
+            "trigger": "getuvobjects\tfunction"
+        },
+        {
+            "contents": "getuvtangents(${1})",
+            "trigger": "getuvtangents\tfunction"
         },
         {
             "contents": "gradient(${1})",
@@ -767,6 +867,10 @@
         {
             "contents": "hair(${1})",
             "trigger": "hair\tfunction"
+        },
+        {
+            "contents": "hasattrib(${1})",
+            "trigger": "hasattrib\tfunction"
         },
         {
             "contents": "hasdetailattrib(${1})",
@@ -901,6 +1005,14 @@
             "trigger": "ident\tfunction"
         },
         {
+            "contents": "idtopoint(${1})",
+            "trigger": "idtopoint\tfunction"
+        },
+        {
+            "contents": "idtoprim(${1})",
+            "trigger": "idtoprim\tfunction"
+        },
+        {
             "contents": "iend(${1})",
             "trigger": "iend\tfunction"
         },
@@ -959,6 +1071,10 @@
         {
             "contents": "invert(${1})",
             "trigger": "invert\tfunction"
+        },
+        {
+            "contents": "invertexgroup(${1})",
+            "trigger": "invertexgroup\tfunction"
         },
         {
             "contents": "iplaneindex(${1})",
@@ -1201,6 +1317,14 @@
             "trigger": "mspace\tfunction"
         },
         {
+            "contents": "nametopoint(${1})",
+            "trigger": "nametopoint\tfunction"
+        },
+        {
+            "contents": "nametoprim(${1})",
+            "trigger": "nametoprim\tfunction"
+        },
+        {
             "contents": "nbouncetypes(${1})",
             "trigger": "nbouncetypes\tfunction"
         },
@@ -1289,6 +1413,14 @@
             "trigger": "nuniqueval\tfunction"
         },
         {
+            "contents": "nvertices(${1})",
+            "trigger": "nvertices\tfunction"
+        },
+        {
+            "contents": "nverticesgroup(${1})",
+            "trigger": "nverticesgroup\tfunction"
+        },
+        {
             "contents": "occlusion(${1})",
             "trigger": "occlusion\tfunction"
         },
@@ -1297,8 +1429,16 @@
             "trigger": "onoise\tfunction"
         },
         {
+            "contents": "opdigits(${1})",
+            "trigger": "opdigits\tfunction"
+        },
+        {
             "contents": "opend(${1})",
             "trigger": "opend\tfunction"
+        },
+        {
+            "contents": "opfullpath(${1})",
+            "trigger": "opfullpath\tfunction"
         },
         {
             "contents": "opstart(${1})",
@@ -1457,6 +1597,10 @@
             "trigger": "pcwrite\tfunction"
         },
         {
+            "contents": "pgfind(${1})",
+            "trigger": "pgfind\tfunction"
+        },
+        {
             "contents": "phong(${1})",
             "trigger": "phong\tfunction"
         },
@@ -1613,8 +1757,16 @@
             "trigger": "primvertices\tfunction"
         },
         {
+            "contents": "print_once(${1})",
+            "trigger": "print_once\tfunction"
+        },
+        {
             "contents": "printf(${1})",
             "trigger": "printf\tfunction"
+        },
+        {
+            "contents": "product(${1})",
+            "trigger": "product\tfunction"
         },
         {
             "contents": "ptexture(${1})",
@@ -1757,6 +1909,10 @@
             "trigger": "refractlight\tfunction"
         },
         {
+            "contents": "relativepath(${1})",
+            "trigger": "relativepath\tfunction"
+        },
+        {
             "contents": "relbbox(${1})",
             "trigger": "relbbox\tfunction"
         },
@@ -1791,6 +1947,10 @@
         {
             "contents": "reorder(${1})",
             "trigger": "reorder\tfunction"
+        },
+        {
+            "contents": "resample_linear(${1})",
+            "trigger": "resample_linear\tfunction"
         },
         {
             "contents": "resize(${1})",
@@ -2041,8 +2201,20 @@
             "trigger": "setprimvertex\tfunction"
         },
         {
+            "contents": "setsamplestore(${1})",
+            "trigger": "setsamplestore\tfunction"
+        },
+        {
             "contents": "setvertexattrib(${1})",
             "trigger": "setvertexattrib\tfunction"
+        },
+        {
+            "contents": "setvertexgroup(${1})",
+            "trigger": "setvertexgroup\tfunction"
+        },
+        {
+            "contents": "setvertexpoint(${1})",
+            "trigger": "setvertexpoint\tfunction"
         },
         {
             "contents": "shadow(${1})",
@@ -2101,8 +2273,16 @@
             "trigger": "slice\tfunction"
         },
         {
+            "contents": "slideframe(${1})",
+            "trigger": "slideframe\tfunction"
+        },
+        {
             "contents": "smooth(${1})",
             "trigger": "smooth\tfunction"
+        },
+        {
+            "contents": "smoothrotation(${1})",
+            "trigger": "smoothrotation\tfunction"
         },
         {
             "contents": "snoise(${1})",
@@ -2141,6 +2321,10 @@
             "trigger": "split\tfunction"
         },
         {
+            "contents": "splitpath(${1})",
+            "trigger": "splitpath\tfunction"
+        },
+        {
             "contents": "sprintf(${1})",
             "trigger": "sprintf\tfunction"
         },
@@ -2163,6 +2347,10 @@
         {
             "contents": "strlen(${1})",
             "trigger": "strlen\tfunction"
+        },
+        {
+            "contents": "sum(${1})",
+            "trigger": "sum\tfunction"
         },
         {
             "contents": "switch(${1})",
@@ -2273,6 +2461,10 @@
             "trigger": "upush\tfunction"
         },
         {
+            "contents": "uvunwrap(${1})",
+            "trigger": "uvunwrap\tfunction"
+        },
+        {
             "contents": "variance(${1})",
             "trigger": "variance\tfunction"
         },
@@ -2375,6 +2567,10 @@
         {
             "contents": "vtransform(${1})",
             "trigger": "vtransform\tfunction"
+        },
+        {
+            "contents": "warning(${1})",
+            "trigger": "warning\tfunction"
         },
         {
             "contents": "wireblinn(${1})",
