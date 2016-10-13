@@ -5,6 +5,7 @@ Version 1.4.0
     Changes:
         Function highlighting and completions ammended to support 15.5.
         Void type added.
+        Added export and const as storage modifiers.
         Pulled Bonsak's fix for the build command on OSX.
 
 

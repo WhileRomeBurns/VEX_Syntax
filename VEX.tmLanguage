@@ -51,6 +51,12 @@
 		</dict>
 		<dict>
 			<key>match</key>
+			<string>\b(const|export)\b</string>
+			<key>name</key>
+			<string>storage.modifier.vex</string>
+		</dict>
+		<dict>
+			<key>match</key>
 			<string>\b(bsdf|char|color|float|int|integer|matrix|matrix2|matrix3|matrix4|normal|point|string|struct|typedef|union|vector|vector2|vector4|void)\b</string>
 			<key>name</key>
 			<string>storage.type.builtin.vex</string>

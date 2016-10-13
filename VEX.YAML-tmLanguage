@@ -17,6 +17,8 @@ patterns:
       name: punctuation.group.vex
 - match: \b(break|continue|do|else|for|foreach|forpoints|function|gather|if|illuminance|return|while)\b
   name: keyword.control.vex
+- match: \b(const|export)\b
+  name: storage.modifier.vex
 - match: \b(bsdf|char|color|float|int|integer|matrix|matrix2|matrix3|matrix4|normal|point|string|struct|typedef|union|vector|vector2|vector4|void)\b
   name: storage.type.builtin.vex
 - captures:
