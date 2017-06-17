@@ -4,12 +4,12 @@ import re
 import subprocess
 import json
 
-VCC_PATH = 'C:/Program Files/Side Effects Software/Houdini 15.5.607/bin/vcc.exe'
+VCC_PATH = 'C:/Program Files/Side Effects Software/Houdini 16.0.600/bin/vcc.exe'
 SUB_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'VEX.sublime-completions')
-
+    
 
 def contexts(vcc_path=VCC_PATH):
-    """Returns a sorted list of all vex contexts."""
+    """Return a sorted list of all vex contexts."""
     ctxs = subprocess.check_output([vcc_path, '-X'])
     ctxs = ctxs.decode('ascii').split('\n')
     return sorted([x for x in ctxs if x != '' and x != None])
@@ -128,8 +128,8 @@ def generate_completions(sublime_completion_path=SUB_PATH):
 
 if __name__ == '__main__':
     if len(sys.argv) < 2:
-        generate_simple_completions()
+        generate_completions()
     elif len(sys.argv) == 2:
-        generate_simple_completions(sys.argv[1])
+        generate_completions(sys.argv[1])
     else:
         raise Exception('To many arguments.')
