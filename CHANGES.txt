@@ -1,3 +1,11 @@
+Version 1.5.0
+==================================================================================================
+    Houdini version 16.0 update.
+
+    Changes:
+        Function highlighting and completions ammended to support 16.0.
+
+
 Version 1.4.0
 ==================================================================================================
     Houdini version 15.5 update.
@@ -11,7 +19,7 @@ Version 1.4.0
 
 Version 1.3.0
 ==================================================================================================
-    Houdini version 15 updates.
+    Houdini version 15.0 update.
 
     Changes:
         Functions added:
@@ -28,7 +36,7 @@ Version 1.3.0
 
 Version 1.2.0
 ==================================================================================================
-    Houdini version 14 supported.
+    Houdini version 14.0 update.
 
     Changes:
         Contexts:
@@ -65,11 +73,9 @@ Version 1.2.0
         5) Snippets for context skeletons.
 
 
-
 Version 1.1.0
 ==================================================================================================
-    Houdini version 13 supported.
-
+    Houdini version 13 update.
 
 
 Version 1.0.0

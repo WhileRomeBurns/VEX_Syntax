@@ -113,6 +113,10 @@
             "trigger": "agentcliptimes\tfunction"
         },
         {
+            "contents": "agentcliptransformgroups(${1})",
+            "trigger": "agentcliptransformgroups\tfunction"
+        },
+        {
             "contents": "agentclipweights(${1})",
             "trigger": "agentclipweights\tfunction"
         },
@@ -159,6 +163,14 @@
         {
             "contents": "agenttransformcount(${1})",
             "trigger": "agenttransformcount\tfunction"
+        },
+        {
+            "contents": "agenttransformgroupmember(${1})",
+            "trigger": "agenttransformgroupmember\tfunction"
+        },
+        {
+            "contents": "agenttransformgroups(${1})",
+            "trigger": "agenttransformgroups\tfunction"
         },
         {
             "contents": "agenttransformnames(${1})",
@@ -345,6 +357,18 @@
             "trigger": "ch4\tfunction"
         },
         {
+            "contents": "chadd(${1})",
+            "trigger": "chadd\tfunction"
+        },
+        {
+            "contents": "chattr(${1})",
+            "trigger": "chattr\tfunction"
+        },
+        {
+            "contents": "chattrnames(${1})",
+            "trigger": "chattrnames\tfunction"
+        },
+        {
             "contents": "chend(${1})",
             "trigger": "chend\tfunction"
         },
@@ -365,12 +389,24 @@
             "trigger": "chi\tfunction"
         },
         {
+            "contents": "chindex(${1})",
+            "trigger": "chindex\tfunction"
+        },
+        {
             "contents": "chinput(${1})",
             "trigger": "chinput\tfunction"
         },
         {
+            "contents": "chinputlimits(${1})",
+            "trigger": "chinputlimits\tfunction"
+        },
+        {
             "contents": "chname(${1})",
             "trigger": "chname\tfunction"
+        },
+        {
+            "contents": "chnames(${1})",
+            "trigger": "chnames\tfunction"
         },
         {
             "contents": "chnumchan(${1})",
@@ -393,8 +429,44 @@
             "trigger": "chrate\tfunction"
         },
         {
+            "contents": "chreadbuf(${1})",
+            "trigger": "chreadbuf\tfunction"
+        },
+        {
+            "contents": "chremove(${1})",
+            "trigger": "chremove\tfunction"
+        },
+        {
+            "contents": "chremoveattr(${1})",
+            "trigger": "chremoveattr\tfunction"
+        },
+        {
+            "contents": "chrename(${1})",
+            "trigger": "chrename\tfunction"
+        },
+        {
+            "contents": "chresizebuf(${1})",
+            "trigger": "chresizebuf\tfunction"
+        },
+        {
             "contents": "chs(${1})",
             "trigger": "chs\tfunction"
+        },
+        {
+            "contents": "chsetattr(${1})",
+            "trigger": "chsetattr\tfunction"
+        },
+        {
+            "contents": "chsetlength(${1})",
+            "trigger": "chsetlength\tfunction"
+        },
+        {
+            "contents": "chsetrate(${1})",
+            "trigger": "chsetrate\tfunction"
+        },
+        {
+            "contents": "chsetstart(${1})",
+            "trigger": "chsetstart\tfunction"
         },
         {
             "contents": "chsraw(${1})",
@@ -415,6 +487,10 @@
         {
             "contents": "chv(${1})",
             "trigger": "chv\tfunction"
+        },
+        {
+            "contents": "chwritebuf(${1})",
+            "trigger": "chwritebuf\tfunction"
         },
         {
             "contents": "cinput(${1})",
@@ -463,6 +539,14 @@
         {
             "contents": "cracktransform(${1})",
             "trigger": "cracktransform\tfunction"
+        },
+        {
+            "contents": "create_cdf(${1})",
+            "trigger": "create_cdf\tfunction"
+        },
+        {
+            "contents": "create_pdf(${1})",
+            "trigger": "create_pdf\tfunction"
         },
         {
             "contents": "cross(${1})",
@@ -569,6 +653,10 @@
             "trigger": "dsmpixel\tfunction"
         },
         {
+            "contents": "efit(${1})",
+            "trigger": "efit\tfunction"
+        },
+        {
             "contents": "eigenvalues(${1})",
             "trigger": "eigenvalues\tfunction"
         },
@@ -611,6 +699,10 @@
         {
             "contents": "expand_udim(${1})",
             "trigger": "expand_udim\tfunction"
+        },
+        {
+            "contents": "expandedgegroup(${1})",
+            "trigger": "expandedgegroup\tfunction"
         },
         {
             "contents": "expandpointgroup(${1})",
@@ -741,6 +833,10 @@
             "trigger": "geoself\tfunction"
         },
         {
+            "contents": "geounwrap(${1})",
+            "trigger": "geounwrap\tfunction"
+        },
+        {
             "contents": "getattrib(${1})",
             "trigger": "getattrib\tfunction"
         },
@@ -751,6 +847,22 @@
         {
             "contents": "getbbox(${1})",
             "trigger": "getbbox\tfunction"
+        },
+        {
+            "contents": "getbbox_center(${1})",
+            "trigger": "getbbox_center\tfunction"
+        },
+        {
+            "contents": "getbbox_max(${1})",
+            "trigger": "getbbox_max\tfunction"
+        },
+        {
+            "contents": "getbbox_min(${1})",
+            "trigger": "getbbox_min\tfunction"
+        },
+        {
+            "contents": "getbbox_size(${1})",
+            "trigger": "getbbox_size\tfunction"
         },
         {
             "contents": "getblurP(${1})",
@@ -785,6 +897,10 @@
             "trigger": "getglobalraylevel\tfunction"
         },
         {
+            "contents": "getgroupid(${1})",
+            "trigger": "getgroupid\tfunction"
+        },
+        {
             "contents": "getlight(${1})",
             "trigger": "getlight\tfunction"
         },
@@ -805,8 +921,20 @@
             "trigger": "getlightscope\tfunction"
         },
         {
+            "contents": "getlocalcurvature(${1})",
+            "trigger": "getlocalcurvature\tfunction"
+        },
+        {
             "contents": "getmaterial(${1})",
             "trigger": "getmaterial\tfunction"
+        },
+        {
+            "contents": "getmaterialid(${1})",
+            "trigger": "getmaterialid\tfunction"
+        },
+        {
+            "contents": "getobjectid(${1})",
+            "trigger": "getobjectid\tfunction"
         },
         {
             "contents": "getobjectname(${1})",
@@ -819,6 +947,22 @@
         {
             "contents": "getpointbbox(${1})",
             "trigger": "getpointbbox\tfunction"
+        },
+        {
+            "contents": "getpointbbox_center(${1})",
+            "trigger": "getpointbbox_center\tfunction"
+        },
+        {
+            "contents": "getpointbbox_max(${1})",
+            "trigger": "getpointbbox_max\tfunction"
+        },
+        {
+            "contents": "getpointbbox_min(${1})",
+            "trigger": "getpointbbox_min\tfunction"
+        },
+        {
+            "contents": "getpointbbox_size(${1})",
+            "trigger": "getpointbbox_size\tfunction"
         },
         {
             "contents": "getprimid(${1})",
@@ -853,10 +997,6 @@
             "trigger": "getspace\tfunction"
         },
         {
-            "contents": "getuvobjects(${1})",
-            "trigger": "getuvobjects\tfunction"
-        },
-        {
             "contents": "getuvtangents(${1})",
             "trigger": "getuvtangents\tfunction"
         },
@@ -879,6 +1019,10 @@
         {
             "contents": "haslight(${1})",
             "trigger": "haslight\tfunction"
+        },
+        {
+            "contents": "hasmetadata(${1})",
+            "trigger": "hasmetadata\tfunction"
         },
         {
             "contents": "hasplane(${1})",
@@ -1027,6 +1171,10 @@
         {
             "contents": "import(${1})",
             "trigger": "import\tfunction"
+        },
+        {
+            "contents": "inedgegroup(${1})",
+            "trigger": "inedgegroup\tfunction"
         },
         {
             "contents": "ingroup(${1})",
@@ -1205,6 +1353,10 @@
             "trigger": "lerp\tfunction"
         },
         {
+            "contents": "lightbounces(${1})",
+            "trigger": "lightbounces\tfunction"
+        },
+        {
             "contents": "lightid(${1})",
             "trigger": "lightid\tfunction"
         },
@@ -1285,6 +1437,10 @@
             "trigger": "mdensity\tfunction"
         },
         {
+            "contents": "metadata(${1})",
+            "trigger": "metadata\tfunction"
+        },
+        {
             "contents": "metaimport(${1})",
             "trigger": "metaimport\tfunction"
         },
@@ -1337,6 +1493,10 @@
             "trigger": "nearpoints\tfunction"
         },
         {
+            "contents": "nedgesgroup(${1})",
+            "trigger": "nedgesgroup\tfunction"
+        },
+        {
             "contents": "neighbour(${1})",
             "trigger": "neighbour\tfunction"
         },
@@ -1363,6 +1523,10 @@
         {
             "contents": "ninput(${1})",
             "trigger": "ninput\tfunction"
+        },
+        {
+            "contents": "ninputs(${1})",
+            "trigger": "ninputs\tfunction"
         },
         {
             "contents": "noise(${1})",
@@ -1425,6 +1589,22 @@
             "trigger": "occlusion\tfunction"
         },
         {
+            "contents": "ocean_sample(${1})",
+            "trigger": "ocean_sample\tfunction"
+        },
+        {
+            "contents": "ocio_import(${1})",
+            "trigger": "ocio_import\tfunction"
+        },
+        {
+            "contents": "ocio_spaces(${1})",
+            "trigger": "ocio_spaces\tfunction"
+        },
+        {
+            "contents": "ocio_transform(${1})",
+            "trigger": "ocio_transform\tfunction"
+        },
+        {
             "contents": "onoise(${1})",
             "trigger": "onoise\tfunction"
         },
@@ -1439,6 +1619,26 @@
         {
             "contents": "opfullpath(${1})",
             "trigger": "opfullpath\tfunction"
+        },
+        {
+            "contents": "opparentbonetransform(${1})",
+            "trigger": "opparentbonetransform\tfunction"
+        },
+        {
+            "contents": "opparenttransform(${1})",
+            "trigger": "opparenttransform\tfunction"
+        },
+        {
+            "contents": "opparmtransform(${1})",
+            "trigger": "opparmtransform\tfunction"
+        },
+        {
+            "contents": "oppreconstrainttransform(${1})",
+            "trigger": "oppreconstrainttransform\tfunction"
+        },
+        {
+            "contents": "oppretransform(${1})",
+            "trigger": "oppretransform\tfunction"
         },
         {
             "contents": "opstart(${1})",
@@ -1467,6 +1667,14 @@
         {
             "contents": "osd_limitsurfacevertex(${1})",
             "trigger": "osd_limitsurfacevertex\tfunction"
+        },
+        {
+            "contents": "osd_lookupface(${1})",
+            "trigger": "osd_lookupface\tfunction"
+        },
+        {
+            "contents": "osd_lookuppatch(${1})",
+            "trigger": "osd_lookuppatch\tfunction"
         },
         {
             "contents": "osd_patchcount(${1})",
@@ -1625,8 +1833,16 @@
             "trigger": "planename\tfunction"
         },
         {
+            "contents": "planepointdistance(${1})",
+            "trigger": "planepointdistance\tfunction"
+        },
+        {
             "contents": "planesize(${1})",
             "trigger": "planesize\tfunction"
+        },
+        {
+            "contents": "planesphereintersect(${1})",
+            "trigger": "planesphereintersect\tfunction"
         },
         {
             "contents": "pluralize(${1})",
@@ -1697,6 +1913,22 @@
             "trigger": "pow\tfunction"
         },
         {
+            "contents": "predicate_incircle(${1})",
+            "trigger": "predicate_incircle\tfunction"
+        },
+        {
+            "contents": "predicate_insphere(${1})",
+            "trigger": "predicate_insphere\tfunction"
+        },
+        {
+            "contents": "predicate_orient2d(${1})",
+            "trigger": "predicate_orient2d\tfunction"
+        },
+        {
+            "contents": "predicate_orient3d(${1})",
+            "trigger": "predicate_orient3d\tfunction"
+        },
+        {
             "contents": "prim(${1})",
             "trigger": "prim\tfunction"
         },
@@ -1707,6 +1939,10 @@
         {
             "contents": "prim_normal(${1})",
             "trigger": "prim_normal\tfunction"
+        },
+        {
+            "contents": "primarclen(${1})",
+            "trigger": "primarclen\tfunction"
         },
         {
             "contents": "primattrib(${1})",
@@ -1723,6 +1959,14 @@
         {
             "contents": "primattribtypeinfo(${1})",
             "trigger": "primattribtypeinfo\tfunction"
+        },
+        {
+            "contents": "primduv(${1})",
+            "trigger": "primduv\tfunction"
+        },
+        {
+            "contents": "primfind(${1})",
+            "trigger": "primfind\tfunction"
         },
         {
             "contents": "primhedge(${1})",
@@ -1743,6 +1987,10 @@
         {
             "contents": "primuv(${1})",
             "trigger": "primuv\tfunction"
+        },
+        {
+            "contents": "primuvconvert(${1})",
+            "trigger": "primuvconvert\tfunction"
         },
         {
             "contents": "primvertex(${1})",
@@ -1997,6 +2245,10 @@
             "trigger": "sample_cauchy\tfunction"
         },
         {
+            "contents": "sample_cdf(${1})",
+            "trigger": "sample_cdf\tfunction"
+        },
+        {
             "contents": "sample_circle_arc(${1})",
             "trigger": "sample_circle_arc\tfunction"
         },
@@ -2089,6 +2341,10 @@
             "trigger": "scale\tfunction"
         },
         {
+            "contents": "scatter(${1})",
+            "trigger": "scatter\tfunction"
+        },
+        {
             "contents": "select(${1})",
             "trigger": "select\tfunction"
         },
@@ -2123,6 +2379,10 @@
         {
             "contents": "setagentclipnames(${1})",
             "trigger": "setagentclipnames\tfunction"
+        },
+        {
+            "contents": "setagentclips(${1})",
+            "trigger": "setagentclips\tfunction"
         },
         {
             "contents": "setagentcliptimes(${1})",
@@ -2175,6 +2435,10 @@
         {
             "contents": "setdetailattrib(${1})",
             "trigger": "setdetailattrib\tfunction"
+        },
+        {
+            "contents": "setedgegroup(${1})",
+            "trigger": "setedgegroup\tfunction"
         },
         {
             "contents": "setpointattrib(${1})",
@@ -2289,6 +2553,10 @@
             "trigger": "snoise\tfunction"
         },
         {
+            "contents": "solid_angle(${1})",
+            "trigger": "solid_angle\tfunction"
+        },
+        {
             "contents": "solvecubic(${1})",
             "trigger": "solvecubic\tfunction"
         },
@@ -2321,6 +2589,10 @@
             "trigger": "split\tfunction"
         },
         {
+            "contents": "split_bsdf(${1})",
+            "trigger": "split_bsdf\tfunction"
+        },
+        {
             "contents": "splitpath(${1})",
             "trigger": "splitpath\tfunction"
         },
@@ -2331,6 +2603,10 @@
         {
             "contents": "sqrt(${1})",
             "trigger": "sqrt\tfunction"
+        },
+        {
+            "contents": "sssapprox(${1})",
+            "trigger": "sssapprox\tfunction"
         },
         {
             "contents": "startswith(${1})",
@@ -2461,6 +2737,18 @@
             "trigger": "upush\tfunction"
         },
         {
+            "contents": "uvdist(${1})",
+            "trigger": "uvdist\tfunction"
+        },
+        {
+            "contents": "uvintersect(${1})",
+            "trigger": "uvintersect\tfunction"
+        },
+        {
+            "contents": "uvsample(${1})",
+            "trigger": "uvsample\tfunction"
+        },
+        {
             "contents": "uvunwrap(${1})",
             "trigger": "uvunwrap\tfunction"
         },
@@ -2563,6 +2851,10 @@
         {
             "contents": "volumesamplev(${1})",
             "trigger": "volumesamplev\tfunction"
+        },
+        {
+            "contents": "volumevoxeldiameter(${1})",
+            "trigger": "volumevoxeldiameter\tfunction"
         },
         {
             "contents": "vtransform(${1})",
