@@ -3,7 +3,10 @@ Version 1.5.0
     Houdini version 16.0 update.
 
     Changes:
-        Function highlighting and completions ammended to support 16.0.
+        Function highlighting and completions updated to support 16.0.
+
+    Todo:
+        Raw string support.
 
 
 Version 1.4.0

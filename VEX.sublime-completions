@@ -357,16 +357,8 @@
             "trigger": "ch4\tfunction"
         },
         {
-            "contents": "chadd(${1})",
-            "trigger": "chadd\tfunction"
-        },
-        {
             "contents": "chattr(${1})",
             "trigger": "chattr\tfunction"
-        },
-        {
-            "contents": "chattrnames(${1})",
-            "trigger": "chattrnames\tfunction"
         },
         {
             "contents": "chend(${1})",
@@ -397,16 +389,8 @@
             "trigger": "chinput\tfunction"
         },
         {
-            "contents": "chinputlimits(${1})",
-            "trigger": "chinputlimits\tfunction"
-        },
-        {
             "contents": "chname(${1})",
             "trigger": "chname\tfunction"
-        },
-        {
-            "contents": "chnames(${1})",
-            "trigger": "chnames\tfunction"
         },
         {
             "contents": "chnumchan(${1})",
@@ -433,18 +417,6 @@
             "trigger": "chreadbuf\tfunction"
         },
         {
-            "contents": "chremove(${1})",
-            "trigger": "chremove\tfunction"
-        },
-        {
-            "contents": "chremoveattr(${1})",
-            "trigger": "chremoveattr\tfunction"
-        },
-        {
-            "contents": "chrename(${1})",
-            "trigger": "chrename\tfunction"
-        },
-        {
             "contents": "chresizebuf(${1})",
             "trigger": "chresizebuf\tfunction"
         },
@@ -455,18 +427,6 @@
         {
             "contents": "chsetattr(${1})",
             "trigger": "chsetattr\tfunction"
-        },
-        {
-            "contents": "chsetlength(${1})",
-            "trigger": "chsetlength\tfunction"
-        },
-        {
-            "contents": "chsetrate(${1})",
-            "trigger": "chsetrate\tfunction"
-        },
-        {
-            "contents": "chsetstart(${1})",
-            "trigger": "chsetstart\tfunction"
         },
         {
             "contents": "chsraw(${1})",
