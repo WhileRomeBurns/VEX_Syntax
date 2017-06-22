@@ -128,8 +128,8 @@ def generate_completions(sublime_completion_path=SUB_PATH):
 
 if __name__ == '__main__':
     if len(sys.argv) < 2:
-        generate_completions()
+        generate_simple_completions()
     elif len(sys.argv) == 2:
-        generate_completions(sys.argv[1])
+        generate_simple_completions(sys.argv[1])
     else:
         raise Exception('To many arguments.')
